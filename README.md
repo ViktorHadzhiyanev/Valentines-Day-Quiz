@@ -1,4 +1,4 @@
-# Valentine's Day Questions
+# ❤️ Valentine's Day Questions ❤️
 
 This is a website created for celebrating Valentine's Day! The project features a set of questions that partners need to answer together. After answering all the questions, confetti and music are triggered on the screen, and the results are calculated immediately.
 
@@ -33,12 +33,12 @@ _A screenshot showing the confetti and music effect after both partners answer c
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/ViktorHadzhiyanev/Valentines-Day-Quiz.git
     ```
 
 2. Navigate to the project folder:
     ```bash
-    cd your-repository
+    cd Valentines-Day-Quiz
     ```
 
 3. Open `index.html` in your browser.
