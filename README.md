@@ -45,7 +45,7 @@ _A screenshot showing the confetti and music effect after both partners answer c
 
 4. Enjoy the fun and celebrate together with your partner!
 
-## Editing or Adding Questions
+## Editing, Adding Questions and Music
 
 To edit existing questions or add new ones to the quiz:
 
@@ -58,7 +58,18 @@ Line 22 for edit, Example
     <div class="option" onclick="handleAnswer(this, 'incorrect')">Average</div>
     <div class="option" onclick="handleAnswer(this, 'incorrect')">Perfect</div>
 </div>
-``` 
+```
+## Changing the  Music
+
+If you want to change the music:
+
+1. Go to the `music` folder located at the beginning of the project folder.
+2. Replace the current music file with the one you want to use. Ensure that the new music file is named `victory.mp3`. Alternatively:
+   - You can rename the new music file to `victory.mp3` before replacing it.
+3. If you want to use a different name for the music file:
+   - Open `index.html` and go to line 14, where the music file is referenced.
+   - Change the filename from `victory.mp3` to the name of your new music file.
+
 
 ## Contributions
 
