@@ -19,8 +19,7 @@ This is a website created for celebrating Valentine's Day! The project features 
 4. The confetti and music only indicate if partner have answered all correctly and completed the quiz.
 
 ## Screenshot
-
-![Screenshot](screenshot.png)  
+![Screenshot](https://i.imgur.com/cDNkWcN.png)  
 _A screenshot showing the confetti and music effect after both partners answer correctly._
 
 ## Technologies Used
