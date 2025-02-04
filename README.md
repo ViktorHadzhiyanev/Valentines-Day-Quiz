@@ -9,14 +9,14 @@ This is a website created for celebrating Valentine's Day! The project features 
 - Confetti and music triggered when both partners answer correctly.
 - Motivational messages displayed if not all answers are correct or if only one partner answers.
 - Real-time feedback on the correctness of answers.
+- Automatic scroll to the top to show the result when there are many questions.
 
 ## How It Works
 
-1. Users begin answering a series of questions, each with only one possible answers.
-2. Once both partners have answered all the questions:
-   - If partner answer correctly, confetti and music are triggered.
-   - If not all answers are correct, a motivational message is displayed to encourage partner to try again.
-3. The confetti and music indicate that partner have answered correctly and completed the quiz.
+1. Users begin answering a series of questions, each with one possible answers.
+2. If partner answer correctly, confetti and music are triggered.
+3. If not all answers are correct, a motivational message is displayed to encourage partner to try again.
+4. The confetti and music only indicate if partner have answered all correctly and completed the quiz.
 
 ## Screenshot
 
@@ -59,17 +59,6 @@ Line 22 for edit, Example
     <div class="option" onclick="handleAnswer(this, 'incorrect')">Perfect</div>
 </div>
 ```
-## Changing the  Music
-
-If you want to change the music:
-
-1. Go to the `music` folder located at the beginning of the project folder.
-2. Replace the current music file with the one you want to use. Ensure that the new music file is named `victory.mp3`. Alternatively:
-   - You can rename the new music file to `victory.mp3` before replacing it.
-3. If you want to use a different name for the music file:
-   - Open `index.html` and go to line 14, where the music file is referenced.
-   - Change the filename from `victory.mp3` to the name of your new music file.
-
 
 ## Contributions
 
