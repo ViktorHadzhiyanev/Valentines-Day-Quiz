@@ -1,4 +1,4 @@
-# ❤️ Valentine's Day Questions ❤️
+# ❤️ Valentine's Day Quiz ❤️
 
 This is a website created for celebrating Valentine's Day! The project features a set of questions that partners need to answer together. After answering all the questions, confetti and music are triggered on the screen, and the results are calculated immediately.
 
