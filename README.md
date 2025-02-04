@@ -70,4 +70,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 [Viktor Hadzhiyanev]  
-[GitHub Link](https://github.com/ViktorHadzjiyanev)
+[GitHub Link](https://github.com/ViktorHadzhiyanev)
