@@ -5,12 +5,13 @@ This is a website created for celebrating Valentine's Day! The project features 
 ## Features
 
 - When your partner selects the **correct answer**, a **pop-up animation** appears, celebrating the correct choice! 🎉  
-- If you select the **wrong answer**, the website will immediately highlight the **correct answer**, so your partner can learn from his/her mistakes.  
+- If your partner select the **wrong answer**, the website will immediately highlight the **correct answer**, so your partner can learn from his/her mistakes.  
 - Instant calculation of results after answering all questions.
-- Confetti and music triggered when both partners answer correctly.
-- Motivational messages displayed if not all answers are correct or if only one partner answers.
+- Confetti and music triggered when partner answer correctly.
+- Motivational messages displayed if not all answers are correct.
 - Real-time feedback on the correctness of answers.
 - Automatic scroll to the top to show the result when there are many questions.
+- Mobile version works aswell
 
 ## How It Works
 
