@@ -55,11 +55,12 @@ Line 22 for edit, Example
 ```javascript 
 <div class="question-box">
     <div class="question">How is your day going?</div>
-    <div class="option" onclick="handleAnswer(this, 'correct')">Good</div>
+    <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Good</div>
     <div class="option" onclick="handleAnswer(this, 'incorrect')">Average</div>
     <div class="option" onclick="handleAnswer(this, 'incorrect')">Perfect</div>
 </div>
 ```
+_The attribute data-correct="true" must be added to the correct answer so that when the partner makes a mistake, it can indicate the correct one._
 
 ## Contributions
 
