@@ -4,7 +4,8 @@ This is a website created for celebrating Valentine's Day! The project features 
 
 ## Features
 
-- Set of interactive questions for couples.
+- When your partner selects the **correct answer**, a **pop-up animation** appears, celebrating the correct choice! 🎉  
+- If you select the **wrong answer**, the website will immediately highlight the **correct answer**, so your partner can learn from his/her mistakes.  
 - Instant calculation of results after answering all questions.
 - Confetti and music triggered when both partners answer correctly.
 - Motivational messages displayed if not all answers are correct or if only one partner answers.
