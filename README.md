@@ -24,9 +24,9 @@ _A screenshot showing the confetti and music effect after both partners answer c
 
 ## Technologies Used
 
-- HTML, CSS, and JavaScript
-- Confetti and music effects using [Confetti.js](https://www.confetti.js)
-- Real-time score calculation using JavaScript
+- **HTML5** (Latest version)
+- **CSS3** (Latest version)
+- **JavaScript (ES6+)**
 
 ## Setup
 
