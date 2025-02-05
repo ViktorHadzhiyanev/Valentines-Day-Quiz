@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #ff6699;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.question-box {
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff5f9;
+}
+
+.question {
+    color: #ff3366;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.option {
+    padding: 10px 15px;
+    margin: 8px 0;
+    background-color: white;
+    border: 2px solid #ffb3d9;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option:hover:not(.disabled) {
+    background-color: #ffecf6;
+    transform: scale(1.02);
+}
+
+
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.option.correct {
+    animation: pulse 0.5s ease;
+}
+
+.score-board {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ff3366;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/* Add this new style for completion message */
+.completion-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff3366;
+    margin: 20px 0;
+    display: none;
+
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.correct {
+    animation: pulse 0.5s ease;
+    background-color: #ccffcc !important;
+    border-color: #66cc66 !important;
+}
+
+.incorrect {
+    background-color: #ffd6d6 !important;
+    border-color: #ff6666 !important;
+}
+
+.imperfect-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: #cc0000;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffe6e6;
+    border: 2px solid #ff6666;
+    border-radius: 10px;
+    display: none;
+}

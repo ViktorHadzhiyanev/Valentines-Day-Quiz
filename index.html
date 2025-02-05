@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Valentine's Day Quiz ❤️</title>
+    <link rel="icon" type="image/x-icon" href="assets/heart.png">
+</head>
+<body>
+
+        <div class="completion-message" id="completionMessage">🎉 Congratulations, dear! These are all the correct answers! 🎉</div>
+        <div class="imperfect-message" id="imperfectMessage">💔 There were some mistakes, but you still did well! Try again! 💔</div>
+        <audio id="victorySound" src="music/victory.mp3"></audio>    
+
+        
+    <div class="container">
+        <div class="score-board" id="scoreDisplay">Score: 0/0</div>
+        <h1>[YourName] & [PartnerName] Valentine's Day Quiz ❤️</h1>
+        <div class="heart">♥</div>
+
+        <!-- Questions (same structure as before) -->
+        <div class="question-box">
+            <div class="question">Where did you have your first date?</div>
+            <div class="option"  onclick="handleAnswer(this, 'incorrect')">Restaurant</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Cinema</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Park</div>
+        </div>
+
+        <div class="question-box">
+            <div class="question">Who said 'I love you' first?</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Ме</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">My Partner</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">At the same time</div>
+        </div>
+
+        <div class="question-box">
+            <div class="question">What is your partner's favorite dessert</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Chocolate Cake</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Ice Cream</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Fruit Salad</div>
+        </div>
+
+
+
+        <!-- Add more questions here -->
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
